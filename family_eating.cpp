@@ -1,3 +1,13 @@
+// The fisherman’s family problem: In a coastal village, a fisherman married his sweetheart,
+// and they were blessed with several children. The father spends his day fishing. When he
+// has filled his basket, he returns home. The mother uses her secret recipe to cook the best
+// fish in the world and places the cooked fish in a pot. The children help themselves from the
+// pot, taking one fish at a time. When the pot becomes empty, they return it to their mother,
+// asking for more cooked fish. The mother continues cooking until the basket is empty, at
+// which time she returns it to the father. The basket can hold M fish, whereas the pot can
+// hold N fish (M >> N). Write a monitor to synchronize the actions of the children, mother, and
+// father.
+
 #include <iostream>
 #include <mutex>
 #include <thread>
